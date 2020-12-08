@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>FON Ultimate| Dobrodošli</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="container flex">
+            <h1 class="logo">FON ULTIMATE</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">About us</a></li>
+                    <li><a href="docs.html">Download</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    
+    <!-- Showcase -->
+    <section class="showcase">
+        <div class="container grid">
+            <div class="showcase-text">
+                <h1>FON ULTIMATE upgrade solutions</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque pariatur aliquid necessitatibus culpa magni dicta, suscipit quos. Maiores, rem temporibus consequuntur molestias, deserunt optio repellat ratione provident qui perferendis hic?</p>
+                <a href="features.html" class="btn btn-outline">Read More</a>
+            </div>
+
+            <div class="showcase-form card">
+                <h2>Prijavi se...</h2>
+                 <!--  <form name="contact" netlify-honeypot="bot-field" method="POST" data-netlify="true">
+                    <input type="hidden" name="form-name" value="contact">
+                    <p class="hidden">
+                        <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                      </p>
+                    <div class="form-control">
+                        <input type="text" name="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="text" name="company" placeholder="Company Name" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <input type="submit" value="Send" class="btn btn-primary">
+                </form> -->
+                 <form id = "forma">
+                    <div id = "error">
+
+                    </div>
+                    <div class="form-control">
+                        <input type="text" id = "ime" name="firstname" placeholder="First name" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="text" id = "prezime" name="lastname" placeholder="Last name" required>
+                    </div>
+                    <div class="form-control" id="email">
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <input type="submit" value="Send" class="btn btn-primary">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats">
+        <div class="container">
+            <h3 class="stats-heading text-center my-1">
+                Dobrodošli na FON Ultimate kutak, mi smo studenti koji pomažu pri izradi domaćih zadataka, rešavaju studije slučaja i omogućavaju ispite lakše
+            </h3>
+
+            <div class="grid grid-3 text-center my-4">
+                <div>
+                    <i class="fas fa-server fa-3x"></i>
+                    <h3>3</h3>
+                    <p class="text-secondary">Zaspolena</p>
+                </div>
+                <div>
+                    <i class="fas fa-upload fa-3x"></i>
+                    <h3>250+</h3>
+                    <p class="text-secondary">Odrađenih domaćih</p>
+                </div>
+                <div>
+                    <i class="fas fa-project-diagram fa-3x"></i>
+                    <h3>100+</h3>
+                    <p class="text-secondary">Odrađenih projekata</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cli -->
+    <section class="cli">
+        <div class="container grid">
+            <img src="images/cli.png" alt="">
+            <div class="card">
+                <h3>Kontaktiraj nas lako...</h3>
+            </div>
+            <div class="card">
+                <h3>Rezervisi svoj domaći za trenutak</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cloud -->
+    <section class="cloud bg-primary my-2 py-2">
+        <div class="container grid">
+            <div class="text-center">
+                <h2 class="lg">Platforma koja ti može olakšati studije</h2>
+                <p class="lead my-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti reiciendis minima deserunt praesentium necessitatibus sint quos ducimus velit commodi cum eius labore neque fugit quidem, officiis id et voluptates ipsum!</p>
+                <a href="features.html" class="btn btn-dark">Read More</a>
+            </div>
+            <img src="images/cloud.png" alt="">
+        </div>
+    </section>
+
+    <!-- Languages -->
+    <section class="languages">
+        <h2 class="md text-center my-2">
+            Programski jezici
+        </h2>
+        <p style="text-align: center; color: black;">koje znamo, koristimo i u kojim ti možemo odraditi projekat</p>
+        <div class="container flex">
+            <div class="card">
+                <h4>Node.js</h4>
+                <img src="images/logos/node.png" alt="">
+            </div>
+            <div class="card">
+                <h4>Python</h4>
+                <img src="images/logos/python.png" alt="">
+            </div>
+            <div class="card">
+                <h4>C#</h4>
+                <img src="images/logos/csharp.png" alt="">
+            </div>
+            <div class="card">
+                <h4>PHP</h4>
+                <img src="images/logos/php.png" alt="">
+            </div>
+            <div class="card">
+                <h4>Scala</h4>
+                <img src="images/logos/scala.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark py-5">
+        <div class="container grid grid-3">
+            <div>
+                <h1>FON ULTIMATE
+                </h1>
+                <p>Copyright &copy; 2020</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">About us</a></li>
+                    <li><a href="docs.html">Download</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </ul>
+            </nav>
+            <div class="social">
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="https://instagram.com"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="https://twitter.com"><i class="fab fa-twitter fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>

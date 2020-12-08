@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>FON Ultimate| Usluge</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="container flex">
+            <h1 class="logo">FON ULTIMATE</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">About us</a></li>
+                    <li><a href="docs.html">Download</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    
+    <section class="features-head bg-primary py-3">
+        <div class="container grid">
+            <div>
+                <h1 class="xl">Naše usluge</h1>
+                <p class="lead">
+                    Ovde možete videti cenovnik i vrste usluga koje nudimo...
+                </p>
+            </div>
+            <img src="images/server.png" alt="">
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats">
+        <div class="container">
+            <h3 class="stats-heading text-center my-1">
+                Ovde možete videti sve usluge koje mi nudimo...
+            </h3>
+
+            <div class="grid grid-3 text-center my-4">
+                <div>
+                    <i class="fas fa-server fa-3x"></i>
+                    <h3>3</h3>
+                    <p class="text-secondary">Zaspolena</p>
+                </div>
+                <div>
+                    <i class="fas fa-upload fa-3x"></i>
+                    <h3>250+</h3>
+                    <p class="text-secondary">Odrađenih domaćih</p>
+                </div>
+                <div>
+                    <i class="fas fa-project-diagram fa-3x"></i>
+                    <h3>100+</h3>
+                    <p class="text-secondary">Odrađenih projekata</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cloud -->
+    <section class="cloud bg-primary my-2 py-2">
+        <div class="container grid">
+            <div class="text-center">
+                <h2 class="lg">Izrada domaćih i cena...</h2>
+                <button class="btn btn-dark">Skloni tekst</button>
+                <p class="lead my-1" id="ajde1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti reiciendis minima deserunt praesentium necessitatibus sint quos ducimus velit commodi cum eius labore neque fugit quidem, officiis id et voluptates ipsum!</p>
+            </div>
+            <img src="images/cloud.png" alt="">
+        </div>
+    </section>
+
+    <section class="cloud bg-secondary my-2 py-2">
+        <div class="container grid">
+            <div class="text-center">
+                <h2 class="lg">Izrada projekata i cena...</h2>
+                <a href="" class="btn btn-dark">Read More</a>
+                <p class="lead my-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti reiciendis minima deserunt praesentium necessitatibus sint quos ducimus velit commodi cum eius labore neque fugit quidem, officiis id et voluptates ipsum!</p>
+            </div>
+            <img src="images/cloud.png" alt="">
+        </div>
+    </section>
+
+    <!-- Languages -->
+    <section class="languages">
+        <h2 class="md text-center my-2">
+            Programski jezici
+        </h2>
+        <p style="text-align: center; color: black;">koje znamo, koristimo i u kojim ti možemo odraditi projekat</p>
+        <div class="container flex">
+            <div class="card">
+                <h4>Node.js</h4>
+                <img src="images/logos/node.png" alt="">
+            </div>
+            <div class="card">
+                <h4>Python</h4>
+                <img src="images/logos/python.png" alt="">
+            </div>
+            <div class="card">
+                <h4>C#</h4>
+                <img src="images/logos/csharp.png" alt="">
+            </div>
+            <div class="card">
+                <h4>PHP</h4>
+                <img src="images/logos/php.png" alt="">
+            </div>
+            <div class="card">
+                <h4>Scala</h4>
+                <img src="images/logos/scala.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark py-5">
+        <div class="container grid grid-3">
+            <div>
+                <h1>FON ULTIMATE
+                </h1>
+                <p>Copyright &copy; 2020</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">About us</a></li>
+                    <li><a href="docs.html">Download</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </ul>
+            </nav>
+            <div class="social">
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="https://instagram.com"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="https://twitter.com"><i class="fab fa-twitter fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("button").click(function(){
+                $("#ajde1").fadeToggle();
+                $("#ajde1").fadeToggle("slow");
+                $("#ajde1").fadeToggle(3000);
+            });
+        });
+    </script>
+</body>
+</html>
